@@ -1,0 +1,33 @@
+Q1)
+แบบที่ 1:
+    my copy of i is 1
+    natcha@natcha-VirtualBox:~/lab4$ my copy of i is 2
+แบบที่ 2:
+    my copy of i is 1
+    my copy of i is 2
+แบบที่ 3:
+    ....
+
+Q2)
+1 แบบ
+    my copy of i is 1
+    my copy of i is 2
+
+
+Q3.1) 2 ครั้ง
+Q3.2) 1 ครั้ง
+
+Q6)เหมือนกัน
+
+Q7.1) 3
+Q7.2) pidsub= fork();
+Q7.3) exit(j);
+Q7.4) while(wait(NULL) !=-1);
+Q7.5) 4
+Q7.6) pidsub==0
+Q7.7) exit(j);
+Q7.8) exit(0);
+Q7.9) ไม่ต้อง เพราะว่า ใน process ลูก ทั้งคู่มีการ exit(0) อยู่แล้ว
+Q7.10) 23 (รวม "only parent before fork" ด้วย)
+Q7.11) 22 process
+Q7.12) no เพราะว่า process ไหนทำงานเสร็จก่อนก็คืนค่าแล้วจบไป
